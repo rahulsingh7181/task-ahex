@@ -8,12 +8,6 @@ public class Utility {
                 count++;
             }
         }
-        if(count == 0) {
-            System.out.println("Prime Number");
-            return true;
-        }else {
-            System.out.println("Not Prime Number");
-            return false;
-        }
+        return count == 0;
     }
 }
